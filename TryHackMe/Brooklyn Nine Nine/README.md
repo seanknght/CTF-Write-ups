@@ -1,7 +1,6 @@
-![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/599ff6e1-1036-49fd-8b02-3dd96109173a)
-
 This box is beginner friendly, you can find the room here.
 
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/599ff6e1-1036-49fd-8b02-3dd96109173a)
 
 The Contents of the Room:
 Task 1: User flag
