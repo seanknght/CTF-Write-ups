@@ -15,6 +15,7 @@ We see that that 3 ports are open, port 21 ftp, port 22 ssh and port 80 http. Le
 
 We are able to login anonymously and their is file called note_to_jake.txt that we can download.
 
+# FTP Login
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/abe5c5af-7335-4033-9a1b-969da3255c47)
 
 the login name is anonymous and the password is anonymous. Now ls -la to list all the contents and get note_to_jake.txt to download the file to your machine. You can use the command exit to exit ftp or open another terminal window to read the file.
@@ -23,9 +24,13 @@ the login name is anonymous and the password is anonymous. Now ls -la to list al
 
 Jake seems to have a weak password. Lets see if we can brute force our way in with hydra and the rockyou wordlist.
 
+# Password Cracking [Hydra]
+
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/f5fc74f2-f016-48ff-89dc-8b9dff313cec)
 
 We got Jake’s password, now lets ssh in to look for the first flag.
+
+# SSH Login
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/e7b7982e-2f6c-458f-9149-a982eb8c90b4)
 
