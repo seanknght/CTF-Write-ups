@@ -44,6 +44,8 @@ First let's run the command sudo -l to find any binaries we can run as sudo.
 
 We found less, lets search for it on gtfobins.
 
+# Privilege Escalation
+
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/cd2f1244-5fa0-4c34-9387-1c412e10e294)
 
 Great, now copy and paste it as it is in Jake@brookly_nine_nine and press enter.
