@@ -5,13 +5,11 @@ This box is beginner friendly, you can find the room here.
 # The Contents of the Room:
 Task 1: User flag
 Task 2: Root flag
-# Lets run the IP address in Nmap
+# Scanning
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/ad0aefa7-0573-4d06-b69e-8597fc15d6aa)
 
-We see that that 3 ports are open, port 21 ftp, port 22 ssh and port 80 http.
-
-# what’s on port 21 ftp?
+We see that that 3 ports are open, port 21 ftp, port 22 ssh and port 80 http. Let's see what’s on port 21 ftp?
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/6ec9bc3a-c97f-4d02-9378-10f26d7c1c20)
 
