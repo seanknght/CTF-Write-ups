@@ -52,7 +52,7 @@ LEts have a look around. I checked the directory we landed in and it's the root 
 
 # USER FLAG
 
-Letslook around in home user directory
+Lets look around in the user home directory.
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/2a40433e-cb19-42ec-aa53-9450562ed4a2)
 
@@ -60,11 +60,17 @@ We found the directory of a user named Lennie but we do not have permission to a
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/a65ff53b-e8c8-4249-b0f1-a3ae8144f30a)
 
+I notieced a suspicious directory called incidents, I listed the contents of the directory and found a pcapng file called suspicious.pcapng. I copied it to the ftp folder on the server and put it on my machine. I opened the file with wireshark and found the logs with a user entering an incorrect password.
 
+# Privilege Escalation
 
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/a6bde3df-c1a7-4631-8901-a7c1d21fae76)
 
+The password worked to switch to the user lennie and get the user flag in lennie's dirctory.
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/61606ba1-5b9e-4545-89fa-10686f5b2a97)
+
+
 
 
 
