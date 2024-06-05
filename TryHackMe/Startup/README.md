@@ -50,6 +50,22 @@ We got a the shell and stabilized it using /usr/bin/script -qc /bin/bash /dev/nu
 
 LEts have a look around. I checked the directory we landed in and it's the root file directory of the machine. I listed the contents and found a text file called recipe.txt file, displayed its contents and found the answer to the first task. Now lets look for the user flag.
 
+# USER FLAG
+
+Letslook around in home user directory
+
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/2a40433e-cb19-42ec-aa53-9450562ed4a2)
+
+We found the directory of a user named Lennie but we do not have permission to access the directory. Lets have another look around.
+
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/a65ff53b-e8c8-4249-b0f1-a3ae8144f30a)
+
+
+
+
+
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/61606ba1-5b9e-4545-89fa-10686f5b2a97)
+
 
 
 
