@@ -48,7 +48,7 @@ We got a the shell and stabilized it using /usr/bin/script -qc /bin/bash /dev/nu
 
 # Enumerating the machine
 
-LEts have a look around. I checked the directory we landed in and it's the root file directory of the machine. I listed the contents and found a text file called recipe.txt file, displayed its contents and found the answer to the first task. Now lets look for the user flag.
+Lets have a look around. I checked the directory we landed in and it's the root file directory of the machine. I listed the contents and found a text file called recipe.txt file, displayed its contents and found the answer to the first task. Now lets look for the user flag.
 
 # USER FLAG
 
