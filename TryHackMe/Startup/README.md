@@ -60,7 +60,7 @@ We found the directory of a user named Lennie but we do not have permission to a
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/a65ff53b-e8c8-4249-b0f1-a3ae8144f30a)
 
-I notieced a suspicious directory called incidents, I listed the contents of the directory and found a pcapng file called suspicious.pcapng. I copied it to the ftp folder on the server and put it on my machine. I opened the file with wireshark and found the logs with a user entering an incorrect password.
+I noticed a suspicious directory called incidents, I listed the contents of the directory and found a pcapng file called suspicious.pcapng. I copied it to the ftp folder on the server and put it on my machine. I opened the file with wireshark and found the logs with a user entering an incorrect password.
 
 # Privilege Escalation
 
