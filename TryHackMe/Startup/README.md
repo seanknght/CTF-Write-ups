@@ -1,4 +1,4 @@
-![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/aa8efd83-8a6e-4266-a099-21357f0654fb)
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/a7d0d14f-9799-47e0-9062-842b855e2757)
 
 # The Contents of the Room:
 
