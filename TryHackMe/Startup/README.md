@@ -36,7 +36,7 @@ The scan found a directory called /files, lets see whats there.
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/8af77b57-b976-47c6-8803-e58ef56fd35a)
 
-It has the same contents as the ftp server, but we have access to the writeable ftp directory. Lets upload the reverse sell payload and try to get a call back to a listener on my machone.
+It has the same contents as the ftp server, but we have access to the writeable ftp directory. Lets upload the reverse sell payload and try to get a call back to a listener on my machine.
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/5942cd22-11cc-4674-8613-0e514808eaba)
 
@@ -69,6 +69,25 @@ I notieced a suspicious directory called incidents, I listed the contents of the
 The password worked to switch to the user lennie and get the user flag in lennie's dirctory.
 
 ![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/61606ba1-5b9e-4545-89fa-10686f5b2a97)
+
+# ROOT FLAG
+
+The hint for the root flag is scripts. So I took a look at the scripts directory in lennies home directory, it contained 2 files, the one that stands out the most is planner.sh. I displayed its contents and it echos another bash file called print.sh in the /etc directory. 
+
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/4409b1c9-aca7-4ca5-b157-d660108e0470)
+
+I checked and saw that lennie had rwx permission to the file and I upload a reverse shell and set up a listener on my machine.
+
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/03b633b9-9ae6-43f0-8506-f8c6af12d7fc)
+
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/b5f37fed-c439-4277-a04d-672871d3319a)
+
+It took a minute but we got the shell and found the root flag.
+
+![image](https://github.com/seanknght/CTF-Write-ups/assets/149443469/66eb8783-2274-4ac2-8fa4-ab384eeea102)
+
+
+
 
 
 
